@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-image: url("https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-size: cover;
+    background-position: center;
+}
+#main #one{
+    height:150px;
+    width:250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#one #two{
+    margin-left:41%;
+    height:50px;
+    width:50px;
+    background-color: blue;
+    background-image:url("https://plus.unsplash.com/premium_photo-1677082488673-8331a12e27a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+}
+#one #three{
+    position:absolute;
+    top:15px;
+    left:138px;
+    height:20px;
+    width:60px;
+    background-color:rgb(92, 154, 208);
+    border-radius:10px;
+    border: 1px solid aliceblue;
+}
+#one h1{
+    margin-top:2px;
+    font-size: 11px;
+    text-align: center;
+    color:black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#one p{
+    margin-top:10px;
+    text-align:center;
+    font-size: 12px;
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#zero{
+    height: 100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.49);
+}
+#one button{
+    height:25px;
+    width:100px;
+    color:aliceblue;
+    background-color:rgb(99, 99, 167);
+    margin-top:10px;
+    margin-left:30%;
+    border:none;
+    border-radius:5px;
+    font-family:apple-system,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+}
